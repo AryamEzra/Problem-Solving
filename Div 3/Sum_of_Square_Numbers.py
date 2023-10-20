@@ -7,6 +7,10 @@ class Solution:
             if b == int(b): return True
         return False
         
+        #time complexity: o(n +y) where y is hte time complsity of b = sqrt(c - (a*a)) and o(n) is for the for loop
+        
+
+
         '''
         #Brute force approach
         a = 0
