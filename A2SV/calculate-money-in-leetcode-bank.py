@@ -9,13 +9,11 @@ class Solution:
             div = n // 7
             rem = n % 7
     
-            week = (28 * div) + (7 * (div *(div-1) // 2))
-            print(week)
+            week = (28 * div) + (7 * (div * (div-1) // 2))
             
             remaining = 0
             for k in range(rem):
-                remaining += (div + k+1)
-            print(remaining)
+                remaining += (div + k + 1)
             money = week + remaining 
         return money
         
