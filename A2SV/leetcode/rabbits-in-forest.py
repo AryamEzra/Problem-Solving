@@ -1,7 +1,7 @@
 class Solution:
     def numRabbits(self, answers: List[int]) -> int:
+        #the max number of 10's we can see is 11
         ans = Counter(answers)
-        print(ans)
         res = 0
         for k, v in ans.items():
             if k == 0:
