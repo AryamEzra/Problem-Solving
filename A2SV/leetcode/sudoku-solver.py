@@ -13,11 +13,6 @@ class Solution:
                     cols[j].add(board[i][j])
                     threes[(i//3, j//3)].add(board[i][j])
                             
-        print(rows)
-        print(cols)
-        print(threes)
-        
-        
         def backtrack(r, c):
             if r == 9:
                 return True
